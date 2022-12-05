@@ -402,7 +402,7 @@ ______________×______________________
   Fb Group :  Rb Rahul Command
   Status   :  Paid
   Contact  :  +918736899399
-  Version  :  1.0
+  Version  :  1.1.2
 ________________×______________________\033[1;37m""")
 class Main:
 	def __init__(self):
