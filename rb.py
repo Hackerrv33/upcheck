@@ -419,15 +419,15 @@ class Main:
 		print(" [5] 2011-14 Cloning")
 		print(" [E] Exit Programming\n")
 		RAHUL=input(" Choose : ")
-		if RAHULin ["1", "01"]:
+		if RAHUL in ["1", "01"]:
 			File()
-		if RAHULin ["2", "02"]:
+		if RAHUL in ["2", "02"]:
 			Public()
-		if RAHULin ["3", "03"]:
+		if RAHUL in ["3", "03"]:
 			os.system("python Dump.py")
-		if RAHULin ["4", "04"]:
+		if RAHUL in ["4", "04"]:
 			self.old()
-		if RAHULin ["5", "05"]:
+		if RAHUL in ["5", "05"]:
 			self.old2()
 			exit()
 		else:
