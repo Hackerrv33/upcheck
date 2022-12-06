@@ -229,7 +229,7 @@ def passmenu():
 def first():
 	clear()
 	print(logo);print( ' [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n')
-	with tred(max_workers=18) as pool:
+	with tred(max_workers=24) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
@@ -256,7 +256,7 @@ def first():
 def name():
 	clear()
 	print(logo);print( '\n [] OK Result Saved To : \033[1;92mOK/%s\033[1;97m\n [] CP Result Saved To : \033[1;91mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
-	with tred(max_workers=18) as pool:
+	with tred(max_workers=24) as pool:
 		for yuzong in id2:
 			try:
 				idf,nmf = yuzong.split('|')
@@ -276,7 +276,7 @@ def name():
 def name2():
 	clear()
 	print(logo);print( '\n [] OK Result Saved To : \033[1;92mOK/%s\033[1;97m\n [] CP Result Saved To : \033[1;91mCP/%s\033[1;97m\n [!] \033[1;96mTurn Airplane Mode On/Off Every 5 Minutes\033[1;0m\n'%(okc,cpc))
-	with tred(max_workers=18) as pool:
+	with tred(max_workers=24) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
@@ -448,7 +448,7 @@ class Main:
 				self.id.append(__+str(_))
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPoolExecutor(max_workers=18) as coeg:
+			with ThreadPoolExecutor(max_workers=24) as coeg:
 				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
@@ -512,7 +512,7 @@ class Main:
 				self.id.append(__+str(_))
 			
 			print("\033[0;93m [+] TOTAL ID -> \033[0;91m%s\033[0;97m"%(len(self.id))) 
-			with ThreadPoolExecutor(max_workers=18) as coeg:
+			with ThreadPoolExecutor(max_workers=24) as coeg:
 				print("\n\033[1;32m [!] USE (123456) FOR IDZ\033[1;37m ")
 				listpass = input("%s [?] ENTER PASSWORD :%s "%(G,Y))
 				if len(listpass)<=5:
